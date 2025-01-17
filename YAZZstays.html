@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>YAZZhome</title>
+<link rel="stylesheet" href="YAZZ.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="YAZZ.js"></script>
+    <header id="top">
+
+            <li><a href="YAZZhome.html"><img src="LOGO.png" id="logo" ></a></li>  
+            <li><a href="YAZZhome.html">HOME</a></li>
+            <li><a href="YAZZstays.html">STAYS</a></li>
+            <li><a href="YAZZaboutus.html">ABOUT US</a></li>
+            <li><a href="YAZZcontactus.html">CONTACT</a></li>
+            <li><a href="YAZZcommands.html"><i class="fa-solid fa-bed" style="color: #000000;"></i></a></li>         
+    </header>
+    <div id="hottop">
+        <img width="1920px" src="hoteltop.jpeg" >
+    </div>
+    <main>
+        <form id="f1">
+            <input id="ind" type="date" min="29/12/2024" style="border-top-left-radius:10px ;border-bottom-left-radius: 10px;" >
+            <input id='city' type="text" placeholder="type the city ." style="cursor:text ;">
+            <select  id="ads">
+                <option value="1adult">1adult</option>
+                <option value="2adult">2adult</option>
+                <option value="3adult">3adult</option>
+                <option value="4adult">4adult</option>
+                <option value="5adult">5adult</option>
+            </select>
+            <SELECT id="chs" style="border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
+                <option value="1child">1child</option>
+                <option value="2child">2child</option>
+                <option value="3child">3child</option>
+                <option value="4child">4child</option>
+                <option value="5child">5child</option>
+            </SELECT>
+        </form>
+        <button type="submit" id="btns">Search</button>
+    </main>
+    <section id="hotels" class="hotels">
+        <div class="container">
+            <h2>Explore Our Featured Hotels</h2>
+            <p>Discover top-rated hotels and apartments, handpicked for your perfect stay.</p>
+            <div class="hotel-grid">
+                <div class="hotel-item">
+                    <img src="hotel4.jpg" alt="Hotel Image">
+                    <h3>Hotel Paradise</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Starting at $120/night</p>
+                    <p>Located downtown, offering free Wi-Fi, a pool, and a gym.</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hotel-item">
+                    <img src="hotel5.jpg" alt="Hotel Image">
+                    <h3>Seaside Resort</h3>
+                    <p>⭐⭐⭐⭐</p>
+                    <p>Starting at $90/night</p>
+                    <p>Beachfront with amazing views and spa services.</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hotel-item">
+                    <img src="hotel6.jpg" alt="Hotel Image">
+                    <h3>Mountain Lodge</h3>
+                    <p>⭐⭐⭐⭐</p>
+                    <p>Starting at $75/night</p>
+                    <p>Cozy lodge with hiking trails and scenic views.</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hotel-item">
+                    <img src="hotel7.jpg" alt="Hotel Image">
+                    <h3>Urban Retreat</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Starting at $110/night</p>
+                    <p>Modern design with rooftop bar and city views.</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hotel-item">
+                    <img src="hotel8.jpg" alt="Hotel Image">
+                    <h3>Beachfront Haven</h3>
+                    <p>⭐⭐⭐⭐</p>
+                    <p>Starting at $140/night</p>
+                    <p>Private beach access with luxury suites.</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hotel-item">
+                    <img src="hotel9.jpg" alt="Hotel Image">
+                    <h3>Luxury Suites</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Starting at $200/night</p>
+                    <p>Premium amenities and personalized services.</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hotel-item">
+                    <img src="hotel10.jpg" alt="Hotel Image">
+                    <h3>Eco-Friendly Inn</h3>
+                    <p>⭐⭐⭐</p>
+                    <p>Starting at $60/night</p>
+                    <p>Environmentally friendly with organic dining.</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hotel-item">
+                    <img src="hotel11.jpg" alt="Hotel Image">
+                    <h3>Budget Stay</h3>
+                    <p>⭐⭐⭐⭐</p>
+                    <p>Starting at $50/night</p>
+                    <p>Affordable and comfortable, perfect for backpackers.</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hotel-item">
+                    <img src="hotel12.jpg" alt="Hotel Image">
+                    <h3>City Central Hotel</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Starting at $130/night</p>
+                    <p>Prime location with easy access to attractions.</p>
+                    <button class="btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section id="services" class="services">
+        <div class="container" >
+            <h1 style="font-family: 'Roboto',serif;font-size: 40px;">Our Services :</h1>
+            <div class="services-list" style="font-size: 40px;">
+                <div class="service-item">
+                    <h3>Hotel Booking</h3>
+                    <p>Book luxury hotels at affordable prices.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Apartment Rentals</h3>
+                    <p>Find cozy apartments for your family or business trips.</p>
+                </div>
+                <div class="service-item">
+                    <h3>24/7 Support</h3>
+                    <p>We’re here to assist you anytime, anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" style="margin-top: 20px;">
+            <p>&copy; 2024 StayFinder. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>

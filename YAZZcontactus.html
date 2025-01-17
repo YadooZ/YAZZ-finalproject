@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>YAZZhome</title>
+<link rel="stylesheet" href="YAZZ.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="YAZZ.js"></script>
+    <header id="top">
+
+            <li><a href="YAZZhome.html"><img src="LOGO.png" id="logo" ></a></li>  
+            <li><a href="YAZZhome.html">HOME</a></li>
+            <li><a href="YAZZstays.html">STAYS</a></li>
+            <li><a href="YAZZaboutus.html">ABOUT US</a></li>
+            <li><a href="YAZZcontactus.html">CONTACT</a></li>
+            <li><a href="YAZZcommands.html"><i class="fa-solid fa-bed" style="color: #000000;"></i></a></li>         
+    </header>
+    <div id="hottop">
+        <img width="1920px" src="hoteltop.jpeg" >
+    </div>
+    <main>
+        <form id="f1">
+            <input id="ind" type="date" min="29/12/2024" style="border-top-left-radius:6px ;border-bottom-left-radius: 6px;" >
+            <input id='city' type="text" placeholder="type the city ." style="cursor:text ;">
+            <select  id="ads">
+                <option value="1adult">1adult</option>
+                <option value="2adult">2adult</option>
+                <option value="3adult">3adult</option>
+                <option value="4adult">4adult</option>
+                <option value="5adult">5adult</option>
+            </select>
+            <SELECT id="chs" style="border-top-right-radius: 6px;border-bottom-right-radius: 6px;">
+                <option value="1child">1child</option>
+                <option value="2child">2child</option>
+                <option value="3child">3child</option>
+                <option value="4child">4child</option>
+                <option value="5child">5child</option>
+            </SELECT>
+        </form>
+        <button type="submit" id="btns" Onclick="getInfo()">Search</button>
+    </main>
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, concerns, or feedback, please don't hesitate to reach out to us. We're here to help!</p>
+            
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Your email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <p id="formMessage" class="form-message"></p>
+                </form>
+
+                <!-- Contact Details -->
+                <div class="contact-details">
+                    <h3>Our Office</h3>
+                    <p><strong>Address:</strong> 123 MOROCCO, SALE</p>
+                    <p><strong>Phone:</strong> +212 642 15 12 41</p>
+                    <p><strong>Email:</strong> support@YAZZ.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 StayFinder. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
